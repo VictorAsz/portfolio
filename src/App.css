@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:whgt@400;500;600&display=swap');
+/* 
+VARIABLES CSS */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root {
+  --header-height: 3rem;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* colors */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* Font and tipography */
+--body-font: "Poppins", sans-serif;
 
-.App-link {
-  color: #61dafb;
-}
+--big-font-size: 3.5rem;
+--h1-font-size: 2.25rem;
+--h2-font-size: 1.5rem;
+--h3-font-size: 1.25rem;
+--normal-font-size: 1rem;
+--small-font-size: 0.875rem;
+--smaller-font-size: 0.813rem;
+--tiny-font-size: 0.625
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
