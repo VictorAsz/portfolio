@@ -51,7 +51,7 @@ VARIABLES CSS */
 --z-tooltip: 10;
 --z-fixed: 100;
 --z-modal: 1000;
-
+}
 
    /* responsive typography*/
 @media screen and (max-width: 992px) {
@@ -142,9 +142,37 @@ img{
 
 
 /* BUTTONS  */
+.button{
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover{
+  background-color: var(--title-color-dark);
+}
+.button_icon{
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex{
+  display: inline-flex;
+  align-items: center;
+}
 
 /* BREAKPOINTS  */
-
-
-
-} 
+@media screen and (max-width: 992px){
+  
+}
+@media screen and (max-width: 768px){
+  
+}
+@media screen and (max-width: 576px){
+  
+}
+@media screen and (max-width: 350px){
+  
+}
