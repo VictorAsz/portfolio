@@ -3,7 +3,14 @@ import "./header.css";
 
 const Header = () => {
     const[Toggle, showMenu] = useState(false);
+
+    const toggleMenu = () => {
+        showMenu(!Toggle);
+    }
+
     return (
+
+        
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav_logo">Victor</a>
@@ -47,10 +54,10 @@ const Header = () => {
                         </li>
                     </ul>
 
-                    <i className="uil uil-times nav_close" onClick={() => showMenu(!Toggle)}></i>
+                    <i className="uil uil-times nav_close" onClick={toggleMenu}></i>
                 </div>
 
-                <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
+                <div className="nav_toggle" onClick={toggleMenu}>
                     <i className="uil uil-apps"></i>
                 </div>
             </nav>
