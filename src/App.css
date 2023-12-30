@@ -25,7 +25,7 @@ VARIABLES CSS */
 --normal-font-size: 1rem;
 --small-font-size: 0.875rem;
 --smaller-font-size: 0.813rem;
---tiny-font-size: 0.625
+--tiny-font-size: 0.625;
 
 
 /* font weight */
@@ -76,6 +76,8 @@ VARIABLES CSS */
 html {
   scroll-behavior: smooth;
 }
+
+a { color: inherit; }
 
 body,button,input,textarea {
   font-family: var(--body-font);
