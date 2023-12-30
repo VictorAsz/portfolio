@@ -11,7 +11,7 @@ const Header = () => {
                         <li className="nav_item">
                             <a href="#home" className="nav_link active-link">
                                 <i className="uil uil-estate nav_icon"></i>
-                                Home
+                                Home 
                             </a>
                         </li>
                         <li className="nav_item">
