@@ -179,5 +179,13 @@
   }
 
   @media screen and (max-width: 350px){
-    
+    .home_img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .home_hand{
+        width: 22px;
+        height: 22px;
+    }
   }
