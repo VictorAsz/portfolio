@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 const ScrollDown = () => {
   return (
     <div className="home_scroll">
@@ -42,6 +43,11 @@ const ScrollDown = () => {
                 }}
                 ></path>
         </svg>
+        <span className="home_scroll-name">
+            Scroll Down
+        </span>
+        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+
         </a>
     </div>
   )
