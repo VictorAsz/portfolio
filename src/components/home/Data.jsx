@@ -2,6 +2,7 @@ import React from 'react';
 import "./data.css";
 
 
+
 const Data = () => {
   return (
     <div className="home_data">
