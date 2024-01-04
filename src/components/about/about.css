@@ -5,7 +5,7 @@
 }
 
 .about_img{
-    width: 250px;
+    width: 400px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -37,7 +37,7 @@
 }
 
 .about_subtitle{
-    font-size: var(--tiny-font-size);
+    font-size: var(--smaller-font-size);
 }
 
 .about_description{
@@ -53,7 +53,7 @@
         row-gap: 2.5rem;
     }
     .about_img{
-        width: 220px;
+        width: 300px;
     }
     .about_box{
         padding: 0.75rem 0.5rem;
