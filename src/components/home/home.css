@@ -28,7 +28,7 @@
 .home_title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
-    min-width: 32rem;
+    min-width: 3.2rem;
 }
 
 .home_hand{
@@ -128,7 +128,7 @@
   }
 
   .home_subtitle{
-    padding-left:  7.8rem;
+    padding-left:  3.75rem;
     margin-bottom: var(--mb-1);
   }
 
