@@ -134,7 +134,7 @@ img{
 .container{
   max-width: 968px;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
 }
 .grid{
   display: grid;
