@@ -38,8 +38,8 @@
 .footer_social-link{
     background-color: var(--title-color);
     color: var(--container-color);
-    font-size: 1.125rem;
-    padding: 0.6rem;
+    font-size: 1.5rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 0.5rem;
     display: inline-flex;
 }
@@ -56,3 +56,21 @@
     font-size: var(--smaller-font-size);
 }
 
+@media screen and (max-width: 992px){
+    .footer_social-link{
+    
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
+    }
+  }
+  @media screen and (max-width: 768px){
+    
+  }
+  @media screen and (max-width: 576px){
+    
+  }
+  @media screen and (max-width: 350px){
+  
+  
+  }
+  
