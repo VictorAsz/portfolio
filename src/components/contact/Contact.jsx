@@ -44,17 +44,17 @@ const Contact = () => {
                 <h3 className="contact_title">Write me your project</h3>
 
                 <form action="" className="contact_form">
-                    <div className="contact_form-div">
+                  <div className="contact_form-div">
                         <label htmlFor="" className="contact_form-tag">Name</label>
                         <input 
-                        type="text" 
+                        type="text"
                         name='name' 
-                        lassName='contact_form-input' 
+                        className='contact_form-input' 
                         placeholder='Insert your name'
                         />
                     </div>
                     <div className="contact_form-div">
-                        <label htmlFor="" className="contact_form-tag">Name</label>
+                        <label htmlFor="" className="contact_form-tag">Email</label>
                         <input 
                         type="email"
                         name='email' 
@@ -62,7 +62,7 @@ const Contact = () => {
                         placeholder='Insert your email'
                         />
                     </div>
-                    <div className="contact_form-div">
+                    <div className="contact_form-div contact_form-area">
                         <label htmlFor="" className="contact_form-tag">Project</label>
                         <textarea 
                         name="project" cols="30" rows="10"
