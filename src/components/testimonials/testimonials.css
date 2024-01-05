@@ -34,3 +34,25 @@
 .swiper-pagination-bullet-active{
     background-color: var(--title-color) !important;
 }
+
+
+@media screen and (max-width: 992px){
+ 
+    .testimonial_container{
+        width: initial;
+    }
+    .testimonial_card{
+        padding: 1.25rem 1.5rem;
+    }
+  }
+  @media screen and (max-width: 768px){
+
+  }
+  @media screen and (max-width: 576px){
+    
+  }
+  @media screen and (max-width: 350px){
+  
+    
+  }
+  
