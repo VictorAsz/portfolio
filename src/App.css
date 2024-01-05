@@ -87,6 +87,7 @@ body,button,input,textarea {
 body{
   background-color: var(--body-color);
   color: var(--text-color);
+  
 }
 
 h1, h2, h3 {
@@ -116,6 +117,10 @@ img{
 .section{
   padding: 6rem 0 2rem;
 }
+
+
+
+
 .section_title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
