@@ -47,7 +47,7 @@ const Qualification = () => {
                 <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">Web Developement</h3>
+                            <h3 className="qualification_title">FrontEnd Developer</h3>
                             <span className="qualification_subtitle">Uninter - Institute</span>
                             <div className="qualification_calendr">
                                 <i className="uil uil-calendar-alt"></i>
