@@ -12,7 +12,7 @@ const Contact = () => {
                     <h3 className="contact_title">Talk to me</h3>
                     <div className="contact_info">
                         <div className="contact_card">
-                            <i className="bx bx-mail-send"></i>
+                            <i className="bx bx-mail-send contact_card-icon"></i>
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">victor.a.schumann@gmail.com</span>
 
