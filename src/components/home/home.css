@@ -174,11 +174,18 @@
     .home_scroll{
         display: none;
     }
+    .home_title {
+        font-size: 2.8rem;
+    }
 
     
   }
 
   @media screen and (max-width: 350px){
+
+    .home_title {
+        font-size: 2.7rem;
+    }
     
     .home_img{
         width: 180px;
@@ -186,7 +193,7 @@
     }
 
     .home_hand{
-        width: 22px;
-        height: 22px;
+        width: 30px;
+        height: 30px;
     }
   }
