@@ -41,7 +41,8 @@
 
 .active-link,
 .nav_link:hover{
-     color: var(--title-color-dark);
+     color: #6f43ba;
+     
 }
 
 .scroll-header{
