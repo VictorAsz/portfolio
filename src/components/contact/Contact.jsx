@@ -63,10 +63,10 @@ const Contact = () => {
                         />
                     </div>
                     <div className="contact_form-div contact_form-area">
-                        <label htmlFor="" className="contact_form-tag">Project</label>
+                        <label htmlFor="" className="contact_form-tag">Message</label>
                         <textarea 
-                        name="project" cols="30" rows="10"
-                        className="contact_form-input" placeholder="write your project"
+                        name="message" cols="30" rows="10"
+                        className="contact_form-input" placeholder="write your message"
                             
                         ></textarea>
                     </div>
