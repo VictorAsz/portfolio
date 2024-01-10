@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css'
 
-const Project = () => {
+const Works = () => {
   return (
     <div className='portfolio_content'>
     <h3 className="portfolio_title">Project</h3>
@@ -12,4 +12,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Works

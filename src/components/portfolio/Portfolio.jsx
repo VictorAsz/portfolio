@@ -1,19 +1,16 @@
 import React from 'react';
 import './portfolio.css';
-import Project from './Project';
+import Works from './Works';
 
 const Portfolio = () => {
   return (
-    <section className="portfolio section">
+    <section className="portfolio section" id='portfolio'>
         <h2 className="section_title">Portfolio</h2>
         <span className="section_subtitle">My recents projects</span>
 
 
         <div className='projects_container container grid'>
-       <Project/>
-       <Project/>
-       <Project/>
-       <Project/>
+          <Works/>
         </div>
 
 
