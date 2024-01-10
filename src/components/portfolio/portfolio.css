@@ -97,3 +97,45 @@
     background-color: var(--title-color);
     color: var(--container-color);
 }
+
+/* BREAKPOINTS  */
+@media screen and (max-width: 992px){
+    .projects_container{
+        gap: 1.25rem;
+    }
+    .work_card{
+        padding: 1rem;
+    }
+    .work_img{
+        margin-bottom: 0.75rem;
+    }
+    .work_title{
+        margin-bottom: 0.25rem;
+    }
+    
+  }
+  @media screen and (max-width: 768px){
+   .projects_container{
+    grid-template-columns: max-content;
+   }
+    
+  }
+  @media screen and (max-width: 576px){
+    .projects_container{
+        grid-template-columns: 1fr;
+    }
+    .qualification_button{
+        margin: 0 var(--mb-0-75);
+    }
+    
+  }
+  @media screen and (max-width: 350px){
+    .work_item{
+        font-size: var(--small-font-size);
+    }
+    .work_filters{
+        column-gap: 0.25rem;
+    }
+    
+  }
+  
