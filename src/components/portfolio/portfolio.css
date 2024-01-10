@@ -92,3 +92,8 @@
 .work_github-icon{
     font-size: 1rem;
 }
+
+.active-work{
+    background-color: var(--title-color);
+    color: var(--container-color);
+}

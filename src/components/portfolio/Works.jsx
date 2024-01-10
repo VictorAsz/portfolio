@@ -23,6 +23,7 @@ const Works = () => {
 
   const handleFilter = (e, index) => {
     setItem({name: e.target.textContent});
+    setActive(index);
   };
 
   return (
@@ -32,7 +33,7 @@ const Works = () => {
         return(
           <span 
           onClick={(e) => {handleFilter(e, index);}}
-          className="work_item" 
+          className={`${active === index ? 'active-work' : ' '} work_item`} 
           key={index}>
 
           {item.name}
