@@ -1,13 +1,20 @@
 import React from 'react';
-import './portfolio.css'
+import { projectsData } from './Data';
+import { projectsNav } from './Data';
+import './portfolio.css';
+
 
 const Works = () => {
   return (
-    <div className='portfolio_content'>
-    <h3 className="portfolio_title">Project</h3>
-    
-
+    <div className="work_filters">
+      {projectsNav.map((item, index) => {
+        return(
+          <span className="work_item" key={index}>{item.name}</span>
+        )
+      })}
     </div>
+
+  
 
   )
 }
