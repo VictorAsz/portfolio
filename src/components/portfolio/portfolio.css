@@ -1,0 +1,20 @@
+.projects_container{
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.portfolio_content{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+    width: 23rem;
+    height: 15rem;
+}
+.portfolio_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
