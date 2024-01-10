@@ -15,14 +15,14 @@ const Works = () => {
       setProjects(projectsData);
     } else{
       const newProjects = projectsData.filter((project) => {
-        return project.category === item.name;
+        return project.category.toLowerCase() === item.name;
       });
       setProjects(newProjects);
     }
   }, [item])
 
   const handleFilter = (e, index) => {
-    setItem({name: e.target.textContent});
+    setItem({name: e.target.textContent.toLowerCase()});
     setActive(index);
   };
 
