@@ -9,9 +9,9 @@ const Portfolio = () => {
         <span className="section_subtitle">My recents projects</span>
 
 
-        <div className='projects_container container grid'>
+     
           <Works/>
-        </div>
+     
 
 
     </section>
