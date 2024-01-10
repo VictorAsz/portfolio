@@ -102,6 +102,7 @@
 @media screen and (max-width: 992px){
     .projects_container{
         gap: 1.25rem;
+        grid-template-columns: repeat(2, max-content);
     }
     .work_card{
         padding: 1rem;
@@ -121,15 +122,16 @@
     
   }
   @media screen and (max-width: 576px){
-    .projects_container{
-        grid-template-columns: 1fr;
-    }
+    
     .qualification_button{
         margin: 0 var(--mb-0-75);
     }
     
   }
   @media screen and (max-width: 350px){
+    .projects_container{
+        grid-template-columns: 1fr;
+    }
     .work_item{
         font-size: var(--small-font-size);
     }
