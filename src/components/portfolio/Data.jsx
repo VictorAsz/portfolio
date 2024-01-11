@@ -8,8 +8,9 @@ export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "projeto 1",
+      title: "HDC",
       category: "Mobile",
+      demo: null,
     },
     {
       id: 2,
