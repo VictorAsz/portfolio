@@ -7,7 +7,7 @@ const Workitems = ({item}) => {
         <h3 className='work_title'>{item.title}</h3>
 
       
-        <a href='https://github.com/VictorAsz/HDCevents' target='blank' className="work_button github_button">
+        <a href={item.githublink} target='blank' className="work_button github_button">
             Github <i className="uil uil-github work_github-icon"></i>
         </a>
         <a href={item.demo} className="work_button">
