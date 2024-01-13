@@ -14,9 +14,9 @@ const About = () => {
             <img src={AboutImg} alt="Victor" className="about_img" />
             <div className="about_data">
                 <Info/>
-                <p className='about_description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ipsam, vel ratione quam at pariatur officia exercitationem, neque eaque in accusamus excepturi. 
-                Officia dolore quod aliquam dolores. Minima, sed excepturi? Recusandae.</p>
+                <p className='about_description'>
+                I'm a web developer learning Laravel and Vue.js. I'm also interested in design. I enjoy combining my interests to create engaging experiences. I'm passionate about learning new technologies, always seeking opportunities to expand my skills and explore new frontiers in software development and digital design.
+</p>
 
                 <a download="" href={CV} className="button button--flex">Download CV
                 <svg
