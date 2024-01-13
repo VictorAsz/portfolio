@@ -15,7 +15,8 @@ const About = () => {
             <div className="about_data">
                 <Info/>
                 <p className='about_description'>
-                I'm a web developer learning Laravel and Vue.js. I'm also interested in design. I enjoy combining my interests to create engaging experiences. I'm passionate about learning new technologies, always seeking opportunities to expand my skills and explore new frontiers in software development and digital design.
+                
+                 Software engineering student and web developer specializing in Vue.js and Laravel. Proficient in crafting innovative and efficient solutions. Committed to continuous learning and staying updated on the latest practices in software development.
 </p>
 
                 <a download="" href={CV} className="button button--flex">Download CV

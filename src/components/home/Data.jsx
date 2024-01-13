@@ -61,7 +61,7 @@ const Data = () => {
             Web developer
         </h3>
         <p className="home_description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat sunt expedita, consectetur exercitationem excepturi. Illum inventore consectetur sint.
+        I am a specialized web developer, with an interest in design as well. I enjoy combining my skills to create pleasant experiences, always seeking opportunities to expand my knowledge.
         </p>
 
         <a href="#contact" className="button button--flex">
