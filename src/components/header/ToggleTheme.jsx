@@ -1,17 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
+import Toggle from "react-toggle";
+import { useMediaQuery } from "react-responsive";
 
-const DarkModeToggle = () => {
-  const [darkMode, setDarkMode] = useState(false);
+export const ToggleTheme = () => {
+  const [isDark, setIsDark] = useState(true);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+  const systemPrefersDark = useMediaQuery(
+    {
+      query: "(prefers-color-scheme: dark)",
+    },
+    undefined,
+    (isSystemDark) => setIsDark(isSystemDark)
+  );
+
+  useEffect(() => {
+    if (isDark) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }, [isDark]); 
 
   return (
-    <button className='toggle-theme-button' onClick={toggleDarkMode}>
-      {darkMode ? 'Desativar Dark Mode' : 'Ativar Dark Mode'}
-    </button>
+    <Toggle
+      checked={isDark}
+      onChange={({ target }) => setIsDark(target.checked)}
+      icons={{ checked: "🌙", unchecked: "🔆" }}
+      aria-label="Dark mode toggle"
+    />
   );
 };
 
-export default DarkModeToggle;
+
+export default ToggleTheme

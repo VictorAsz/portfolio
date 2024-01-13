@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-
+import ToggleTheme from "./ToggleTheme";
 import "./header.css";
 
 
 
 const Header = () => {
-    const [darkMode, setDarkMode] = useState(false);
+    // const [darkMode, setDarkMode] = useState(false);
   
-    const toggleDarkMode = () => {
-      setDarkMode(!darkMode);
-    };
+    // const toggleDarkMode = () => {
+    //   setDarkMode(!darkMode);
+    // };
 
 
     window.addEventListener("scroll", function() {
@@ -33,9 +33,10 @@ const Header = () => {
             
             <nav className="nav container">
                 {/* DarkMode Button */}
-            <button className='toggle-theme-button' onClick={toggleDarkMode}>
+                <ToggleTheme/>
+            {/* <button className='toggle-theme-button' onClick={toggleDarkMode}>
                   {darkMode ? 'Desativar Dark Mode' : 'Ativar Dark Mode'}
-            </button>
+            </button> */}
 
                 <a href="index.html" className="nav_logo">Victor</a>
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>

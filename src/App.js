@@ -14,11 +14,11 @@ import Portfolio from './components/portfolio/Portfolio';
 
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
 
   
   return (
-    <div className={darkMode ? 'dark-mode' : ''}>
+    <div>
     <Header/>
 
     <main className='main'>
