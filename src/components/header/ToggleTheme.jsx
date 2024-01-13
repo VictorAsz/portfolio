@@ -26,7 +26,7 @@ export const ToggleTheme = () => {
     <Toggle
       checked={isDark}
       onChange={({ target }) => setIsDark(target.checked)}
-      icons={{ checked: "🌙", unchecked: "" }}
+      icons={{ checked: "🌙", unchecked: "🔆" }}
       aria-label="Dark mode toggle"
     />
   );
