@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Toggle from "react-toggle";
+import Toggle from 'react-toggle';
 import { useMediaQuery } from "react-responsive";
 
 export const ToggleTheme = () => {
@@ -25,7 +25,7 @@ export const ToggleTheme = () => {
     <Toggle
       checked={isDark}
       onChange={({ target }) => setIsDark(target.checked)}
-      icons={{ checked: "🌙", unchecked: "🔆" }}
+      icons={{ checked: "", unchecked: "" }}
       aria-label="Dark mode toggle"
     />
   );

@@ -33,7 +33,7 @@ const Header = () => {
             
             <nav className="nav container">
                 {/* DarkMode Button */}
-                <ToggleTheme/>
+                
             {/* <button className='toggle-theme-button' onClick={toggleDarkMode}>
                   {darkMode ? 'Desativar Dark Mode' : 'Ativar Dark Mode'}
             </button> */}
@@ -65,14 +65,14 @@ const Header = () => {
                                 Skills
                             </a>
                         </li>
-                        <li className="nav_item">
+                        {/* <li className="nav_item">
                             <a href="#services" 
                             onClick={() => setActiveNav('#services')} className={activeNav === "#services" ? "nav_link active-link" : "nav_link"}
                             >
                                 <i className="uil uil-briefcase-alt nav_icon"></i>
                                 Services
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav_item">
                             <a href="#portfolio" 
                             onClick={() => setActiveNav('#portfolio')} className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"}
@@ -89,14 +89,18 @@ const Header = () => {
                                 Contact
                             </a>
                         </li>
+                        
+                        
+                        
                     </ul>
-
+                    
                     <i className="uil uil-times nav_close" onClick={toggleMenu}></i>
                 </div>
 
                 <div className="nav_toggle" onClick={toggleMenu}>
                     <i className="uil uil-apps"></i>
                 </div>
+                <ToggleTheme/>
             </nav>
         </header>
     )
