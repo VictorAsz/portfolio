@@ -2,14 +2,15 @@ import React, { useState } from "react";
 
 import "./header.css";
 
-const DarkModeToggle = () => {
+
+
+const Header = () => {
     const [darkMode, setDarkMode] = useState(false);
   
     const toggleDarkMode = () => {
       setDarkMode(!darkMode);
     };
 
-const Header = () => {
 
     window.addEventListener("scroll", function() {
         const header = document.querySelector(".header");

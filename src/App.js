@@ -14,6 +14,7 @@ import Portfolio from './components/portfolio/Portfolio';
 
 
 const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
 
   
   return (
