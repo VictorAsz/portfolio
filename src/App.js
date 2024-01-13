@@ -12,43 +12,16 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/portfolio/Portfolio';
 
-const DarkModeToggle = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  useEffect(() => {
-    const html = document.getElementById('html');
-    const darkModeSwitch = document.querySelector('#dark_mode_button');
-
-    const toggleDarkMode = () => {
-      html.classList.toggle('dark-mode', isDarkMode);
-    };
-
-    darkModeSwitch.addEventListener('change', () => {
-      setIsDarkMode(!isDarkMode);
-    });
-
-    return () => {
-      darkModeSwitch.removeEventListener('change', () => {
-        setIsDarkMode(!isDarkMode);
-        console.log('mudei de cor');
-      });
-    };
-  }, [isDarkMode]);
-
-}
 
 const App = () => {
 
   
   return (
-    <>
+    <div className={darkMode ? 'dark-mode' : ''}>
     <Header/>
 
     <main className='main'>
-      <div>
-    <button id='dark_mode_button' onClick={DarkModeToggle()}>Dark mode</button>
 
-    </div>
       <Home/>
       <About/>
       <Skills/>
@@ -62,7 +35,7 @@ const App = () => {
     <Footer/>
     <ScrollUp/>
 
-    </>
+    </div>
   );
 }
 
