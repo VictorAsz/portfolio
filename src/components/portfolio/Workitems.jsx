@@ -9,13 +9,7 @@ const Workitems = ({item}) => {
       setDemoButton(true);
     }
   }, [item.demo]);
-
-  // const renderButton = () => {
-  //     if(item.demo != null){
-  //       setDemoButton = true;
-  //     }
-  // }
-
+  
   return (
     <div className="work_card" key={item.id}>
         <img src={item.image} alt="" className='work_img' />
