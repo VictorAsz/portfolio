@@ -100,7 +100,9 @@ const Header = () => {
                 <div className="nav_toggle" onClick={toggleMenu}>
                     <i className="uil uil-apps"></i>
                 </div>
+                <div className={Toggle ? "hidden-button" : ""}>
                 <ToggleTheme/>
+                </div>
             </nav>
         </header>
     )
