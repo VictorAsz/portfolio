@@ -174,10 +174,21 @@ img{
   align-items: center;
 }
 
-
+/* DARK MODE */
 body.dark {
-  --body-color: black;
+
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(263, 57%, 79%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 90%);
+  --text-color: hsl(var(--hue), var(--sat), 70%);
+  --body-color: hsl(var(--hue), var(--sat), 5%);
+  --container-color: hsl(var(--hue), var(--sat), 10%);
+
+  
 }
+
+
 
 /* BREAKPOINTS  */
 @media screen and (max-width: 992px){

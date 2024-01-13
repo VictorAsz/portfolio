@@ -8,7 +8,7 @@ export const ToggleTheme = () => {
 
   const systemPrefersDark = useMediaQuery(
     {
-      query: "(prefers-color-scheme: light)",
+      query: "(prefers-color-scheme: dark)",
     },
     undefined,
     (isSystemDark) => setIsDark(isSystemDark)
