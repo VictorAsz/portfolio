@@ -1,5 +1,13 @@
 import React, { useState } from "react";
+
 import "./header.css";
+
+const DarkModeToggle = () => {
+    const [darkMode, setDarkMode] = useState(false);
+  
+    const toggleDarkMode = () => {
+      setDarkMode(!darkMode);
+    };
 
 const Header = () => {
 
@@ -23,7 +31,11 @@ const Header = () => {
         <header className="header">
             
             <nav className="nav container">
-                
+                {/* DarkMode Button */}
+            <button className='toggle-theme-button' onClick={toggleDarkMode}>
+                  {darkMode ? 'Desativar Dark Mode' : 'Ativar Dark Mode'}
+            </button>
+
                 <a href="index.html" className="nav_logo">Victor</a>
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grid">
