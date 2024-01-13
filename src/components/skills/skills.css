@@ -26,24 +26,29 @@
 .skills_group{
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 3rem;
 }
 
 .skills_data{
     display: flex;
     column-gap: 0.5rem;
+    
+    
 }
 
 .skills .bx-badge-check{
-    margin-top: 0.20rem;
+    margin-top: 0rem;
     font-size: 1.5rem;
     color: var(--title-color);
 }
 
 .skills_name{
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
+    
+    
+    
 
 }
 
