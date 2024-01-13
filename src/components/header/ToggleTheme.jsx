@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Toggle from 'react-toggle';
 import { useMediaQuery } from "react-responsive";
+import './toggletheme.css';
 
 export const ToggleTheme = () => {
   const [isDark, setIsDark] = useState(true);
 
   const systemPrefersDark = useMediaQuery(
     {
-      query: "(prefers-color-scheme: dark)",
+      query: "(prefers-color-scheme: light)",
     },
     undefined,
     (isSystemDark) => setIsDark(isSystemDark)
@@ -25,7 +26,7 @@ export const ToggleTheme = () => {
     <Toggle
       checked={isDark}
       onChange={({ target }) => setIsDark(target.checked)}
-      icons={{ checked: "", unchecked: "" }}
+      icons={{ checked: "🌙", unchecked: "" }}
       aria-label="Dark mode toggle"
     />
   );
