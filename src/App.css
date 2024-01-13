@@ -15,6 +15,10 @@ VARIABLES CSS */
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --form-color: hsl(var(--hue), var(--sat), 95%) ;
+  --button-color: hsl(var(--hue), var(--sat), 20%); 
+  --button-title-color: hsl(var(--hue), var(--sat), 97%); 
+  --button-hover-color: hsl(var(--hue), var(--sat), 12%); 
+  --button-title-hover-color: hsl(var(--hue), var(--sat), 100%);
 
   /* Font and tipography */
 --body-font: "Poppins", sans-serif;
@@ -185,8 +189,11 @@ body.dark {
   --text-color: hsl(var(--hue), var(--sat), 70%);
   --body-color: hsl(var(--hue), var(--sat), 5%);
   --container-color: hsl(var(--hue), var(--sat), 10%);
-  --form-color: hsl(var(--hue), var(--sat), 9%) 
-  
+  --form-color: hsl(var(--hue), var(--sat), 9%);
+  --button-color: hsl(263, 57%, 79%); 
+  --button-title-color: hsl(var(--hue), var(--sat), 5%); 
+  --button-hover-color: hsl(264, 28%, 43%); 
+
 }
 
 

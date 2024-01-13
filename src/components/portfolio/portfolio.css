@@ -57,7 +57,7 @@
     align-items: center;
     padding: 0.5rem;
     height: 2.7rem;
-    background-color: var(--container-color);
+    background-color: var(--button-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     font-size: var(--small-font-size);
@@ -66,13 +66,15 @@
     transition: background-color 0.3s ease;
     margin-right: 0.5rem;
     column-gap: 0.15rem;
+    color: var(--button-title-color);
     
   
 }
 
 
 .work_button:hover{
-    background-color: rgba(0, 0, 0, 0.1); 
+    background-color:  var(--button-hover-color); 
+    color: var(--button-title-hocolor);
 }
 
 .github_button{
@@ -87,6 +89,7 @@
 .work_button-icon{
     font-size: 1rem;
     transition: 0.4s;
+
     
  
 }
