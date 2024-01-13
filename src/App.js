@@ -16,8 +16,8 @@ const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    const html = document.querySelector('html');
-    const darkModeSwitch = document.querySelector('#switch');
+    const html = document.getElementById('html');
+    const darkModeSwitch = document.querySelector('#dark_mode_button');
 
     const toggleDarkMode = () => {
       html.classList.toggle('dark-mode', isDarkMode);
@@ -30,22 +30,25 @@ const DarkModeToggle = () => {
     return () => {
       darkModeSwitch.removeEventListener('change', () => {
         setIsDarkMode(!isDarkMode);
+        console.log('mudei de cor');
       });
     };
   }, [isDarkMode]);
+
 }
 
 const App = () => {
 
-  const darkModeToggle = () =>{
-    
-  }
+  
   return (
     <>
     <Header/>
 
     <main className='main'>
-      
+      <div>
+    <button id='dark_mode_button' onClick={DarkModeToggle()}>Dark mode</button>
+
+    </div>
       <Home/>
       <About/>
       <Skills/>
