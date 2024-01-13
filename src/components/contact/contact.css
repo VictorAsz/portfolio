@@ -72,6 +72,8 @@
     position: relative;
     margin-bottom: var(--mb-2);
     height: 4rem;
+    
+    
 }
 
 .contact_form-input{
@@ -87,6 +89,7 @@
     border-radius: 0.75rem;
     padding: 1.5rem;
     z-index: 1;
+    background-color: var(--form-color);
 }
 
 .contact_form-tag{
