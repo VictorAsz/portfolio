@@ -91,7 +91,6 @@ body,button,input,textarea {
 }
 
 body{
- 
   background-color: var(--body-color);
   color: var(--text-color);
   
