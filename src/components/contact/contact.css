@@ -39,6 +39,7 @@
 
 .contact_card-title{
     font-weight: var(--font-medium);
+    margin-bottom: 10px;
 }
 
 .contact_card-data{
@@ -53,6 +54,11 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.25rem;
+    margin-left: 10px;
+}
+
+.contact_button:hover{
+    color: var(--button-hover-color);
 }
 
 .contact_button-icon{
