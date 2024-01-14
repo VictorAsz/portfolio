@@ -192,8 +192,8 @@ body.dark {
   --form-color: hsl(var(--hue), var(--sat), 9%);
   --button-color: hsl(263, 57%, 79%); 
   --button-title-color: hsl(var(--hue), var(--sat), 5%); 
-  --button-hover-color: hsl(264, 28%, 43%); 
-
+  --button-hover-color: hsl(var(--hue), var(--sat), 90%); 
+  --button-title-hover-color: hsl(var(--hue), var(--sat), 5%);
 }
 
 
