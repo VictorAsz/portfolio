@@ -45,7 +45,7 @@ const Header = () => {
                             onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? "nav_link active-link" : "nav_link"}
                             > 
                                 <i className="uil uil-user nav_icon"></i> 
-                                About
+                                Sobre
                             </a>
                         </li>
                         <li className="nav_item">
@@ -69,7 +69,7 @@ const Header = () => {
                             onClick={() => setActiveNav('#portfolio')} className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"}
                             >
                                 <i className="uil uil-scenery nav_icon"></i> 
-                                Portfolio
+                                Portfólio
                             </a>
                         </li>
                         <li className="nav_item">
@@ -77,7 +77,7 @@ const Header = () => {
                             onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? "nav_link active-link" : "nav_link"}
                             >
                                 <i className="uil uil-message nav_icon"></i>
-                                Contact
+                                Contato
                             </a>
                         </li>
                         
