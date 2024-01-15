@@ -14,27 +14,27 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-            <h2 className="section_title">Get in touch</h2>
+            <h2 className="section_title">Entre em Contato</h2>
             <span className="section_subtitle">Contact Me</span>
 
             <div className="contact_container container grid">
                 <div className="contact_content">
-                    <h3 className="contact_title">Talk to me</h3>
+                    <h3 className="contact_title">Fale comigo</h3>
                     <div className="contact_info">
                         <div className="contact_card">
                             <i className="bx bx-mail-send contact_card-icon"></i>
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">victor.a.schumann@gmail.com</span>
 
-                            <a href="mailto:victor.a.schumann@gmail.com" className="contact_button">{" "}Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="mailto:victor.a.schumann@gmail.com" className="contact_button">{" "}Escreva-me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
                             <i className="bx bxl-whatsapp contact_card-icon"></i>
                             <h3 className="contact_card-title">Whatsapp</h3>
-                            <span className="contact_card-data">+55 (54) 9 8428-9836</span>
+                            <span className="contact_card-data"> (54) 9 8428-9836</span>
 
-                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5554984289836&text=Ol%C3%A1,%20temos%20interesse%20em%20contratar%20voc%C3%AA." className="contact_button">{" "}Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5554984289836&text=Ol%C3%A1,%20temos%20interesse%20em%20contratar%20voc%C3%AA." className="contact_button">{" "}Escreva-me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
@@ -42,7 +42,7 @@ const Contact = () => {
                             <h3 className="contact_card-title">Linkedin</h3>
                             <span className="contact_card-data">Victor Assunção</span>
 
-                            <a href="https://www.linkedin.com/in/victoraszs/" target="_blank" className="contact_button">{" "} Write me<i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/victoraszs/" target="_blank" className="contact_button">{" "} Visualizar<i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
 
@@ -51,16 +51,16 @@ const Contact = () => {
                 </div>
 
             <div className="contact_content">
-                <h3 className="contact_title">Write me your project</h3>
+                <h3 className="contact_title">Me escreva um Email</h3>
 
                 <form action="" className="contact_form" ref={form} onSubmit={sendEmail}>
                   <div className="contact_form-div">
-                        <label htmlFor="" className="contact_form-tag">Name</label>
+                        <label htmlFor="" className="contact_form-tag">Nome</label>
                         <input 
                         type="text"
                         name='name' 
                         className='contact_form-input' 
-                        placeholder='Insert your name'
+                        placeholder='Escreva seu nome'
                         />
                     </div>
                     <div className="contact_form-div">
@@ -69,20 +69,20 @@ const Contact = () => {
                         type="email"
                         name='email' 
                         className='contact_form-input' 
-                        placeholder='Insert your email'
+                        placeholder='Escreva seu Email'
                         />
                     </div>
                     <div className="contact_form-div contact_form-area">
-                        <label htmlFor="" className="contact_form-tag">Message</label>
+                        <label htmlFor="" className="contact_form-tag">Mensagem</label>
                         <textarea 
                         name="message" cols="30" rows="10"
-                        className="contact_form-input" placeholder="write your message"
+                        className="contact_form-input" placeholder="Escreva sua mensagem"
                             
                         ></textarea>
                     </div>
 
                     <button className="button button--flex">
-                      Send Message
+                      Enviar Email
                       <i class="uil uil-arrow-right message_icon"></i>       
                     </button>
                 </form>
