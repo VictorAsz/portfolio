@@ -8,8 +8,8 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio section" id='portfolio'>
-        <h2 className="section_title">Portfolio</h2>
-        <span className="section_subtitle">My recents projects</span>
+        <h2 className="section_title">Portfólio</h2>
+        <span className="section_subtitle">Meus Projetos</span>
 
 
      

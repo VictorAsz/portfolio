@@ -9,8 +9,8 @@ const Qualification = () => {
 
   return (
     <section className="qualification section">
-        <h2 className="section_title">Qualification</h2>
-        <span className="section_subtitle">My personal journey</span>
+        <h2 className="section_title">Qualificações</h2>
+        <span className="section_subtitle">Minha jornada</span>
 
         <div className="qualification_container container">
             <div className="qualification_tabs">
@@ -25,7 +25,7 @@ const Qualification = () => {
                 >
 
                     <i className="uil uil-graduation-cap qualification_icon"></i>
-                    Education
+                    Educação
                 </div>
                 <div 
                 className={
@@ -36,7 +36,7 @@ const Qualification = () => {
                 onClick={() => toggleTab(2)}
                 >
                     <i className="uil uil-briefcase-alt qualification_icon"></i>
-                    Experience
+                    Experiência
                 </div>
             </div>
           
@@ -47,11 +47,11 @@ const Qualification = () => {
                 <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">Software Engineering</h3>
+                            <h3 className="qualification_title">Engenharia de Software</h3>
                             <span className="qualification_subtitle">Uninter - Institute</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023 - present
+                                2023 - Present
                             </div>
                         </div>
 
@@ -80,7 +80,7 @@ const Qualification = () => {
 
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">High School</h3>
+                            <h3 className="qualification_title">Ensino Médio</h3>
                             <span className="qualification_subtitle">Cecília Meireles - Institute</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
@@ -102,7 +102,7 @@ const Qualification = () => {
                         </div>
                         
                         <div>
-                            <h3 className="qualification_title">Elementary School</h3>
+                            <h3 className="qualification_title">Ensino Fundamental</h3>
                             <span className="qualification_subtitle">Rio Branco - Institute</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
@@ -116,7 +116,7 @@ const Qualification = () => {
                 <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">Web Developer</h3>
+                            <h3 className="qualification_title">Desenvolvedor</h3>
                             <span className="qualification_subtitle">Freelance</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
@@ -138,7 +138,7 @@ const Qualification = () => {
                         </div>
                         
                         <div>
-                            <h3 className="qualification_title">Waiter</h3>
+                            <h3 className="qualification_title">Garçom</h3>
                             <span className="qualification_subtitle">Laghetto Siena - Gramado</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
@@ -149,7 +149,7 @@ const Qualification = () => {
 
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">Financial Intern</h3>
+                            <h3 className="qualification_title">Estágiario Financeiro</h3>
                             <span className="qualification_subtitle">Laghetto Centro - Gramado</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
