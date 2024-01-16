@@ -4,11 +4,11 @@ import { useMediaQuery } from "react-responsive";
 import './toggletheme.css';
 
 export const ToggleTheme = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   const systemPrefersDark = useMediaQuery(
     {
-      query: "(prefers-color-scheme: dark)",
+      query: "(prefers-color-scheme: light)",
     },
     undefined,
     (isSystemDark) => setIsDark(isSystemDark)
