@@ -1,3 +1,9 @@
 ABOUT TEXT
 
  Software engineering student and web developer specializing in Vue.js and Laravel. Proficient in crafting innovative and efficient solutions. Committed to continuous learning and staying updated on the latest practices in software development.
+
+
+ HOME::
+
+
+ I am a specialized web developer, with an interest in design as well. I enjoy combining my skills to create pleasant experiences, always seeking opportunities to expand my knowledge.

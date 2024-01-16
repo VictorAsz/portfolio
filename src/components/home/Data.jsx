@@ -61,7 +61,8 @@ const Data = () => {
             Web developer
         </h3>
         <p className="home_description">
-        I am a specialized web developer, with an interest in design as well. I enjoy combining my skills to create pleasant experiences, always seeking opportunities to expand my knowledge.
+          Eu sou um desenvolvedor web especializado, com interesse em design. Eu gosto de combinar minhas habilidades para criar experiências agradáveis, sempre buscando oportunidades para expandir meu conhecimento.
+        
         </p>
 
         <a href="#contact" className="button button--flex">
