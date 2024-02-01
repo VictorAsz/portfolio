@@ -21,7 +21,7 @@ const Workitems = ({item}) => {
         </a>
 
         {demoButton && (
-        <a href={item.demo} className="work_button">
+        <a href={item.demo}  target="_blank" className="work_button">
           Demo <i className="bx bx-right-arrow-alt work_button-icon"></i>
         </a>
       )}
