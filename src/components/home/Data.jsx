@@ -58,7 +58,7 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home_subtitle">
-            Web developer
+            Desenvolvedor Web
         </h3>
         <p className="home_description">
           Eu sou um desenvolvedor web, com interesse em design. Eu gosto de combinar minhas habilidades para criar experiências agradáveis, sempre buscando oportunidades para expandir meu conhecimento.
@@ -66,7 +66,7 @@ const Data = () => {
         </p>
 
         <a href="#contact" className="button button--flex">
-            Say Hello! 
+            Fale comigo! 
 
             <i class="uil uil-arrow-right message_icon"></i>
            

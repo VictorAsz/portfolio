@@ -43,7 +43,7 @@ export const projectsData = [
       image: Work5,
       title: "Todo List",
       category: "Frontend",
-      demo: "https://react-todo-seven-nu.vercel.app/",
+      demo: null,
       githublink: "https://github.com/VictorAsz/Todo-List",
     },
     {
