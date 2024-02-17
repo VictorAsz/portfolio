@@ -62,6 +62,15 @@ export const projectsData = [
       demo: null,
       githublink: "https://github.com/VictorAsz/CRUDPHP-BDmySQL",
     },
+    {
+      id: 8,
+      image: Work5,
+      title: "Burger Commerce System",
+      category: "Frontend",
+      demo: "https://burger-commerce-beige.vercel.app/",
+      githublink: "https://github.com/VictorAsz/BurgerCommerce",
+    },
+
 
   ];
   
