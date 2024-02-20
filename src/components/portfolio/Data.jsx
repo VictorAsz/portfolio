@@ -4,6 +4,7 @@ import MooseFilm from "../../assets/MooseFilm.jpg";
 import AttendanceList from "../../assets/AttendanceList.jpg";
 import Work5 from "../../assets/work5.jpg";
 import Instagram from "../../assets/Instagram.jpg";
+import Calculator from "../../assets/calculator.png";
 
 export const projectsData = [
     {
@@ -69,6 +70,14 @@ export const projectsData = [
       category: "Frontend",
       demo: "https://burger-commerce-beige.vercel.app/",
       githublink: "https://github.com/VictorAsz/BurgerCommerce",
+    },
+    {
+      id: 9,
+      image: Calculator,
+      title: "Calculator",
+      category: "Frontend",
+      demo: "https://codepen.io/Drayuuta/pen/JjzBbWO",
+      githublink: "https://github.com/VictorAsz/Calculadora",
     },
 
 
