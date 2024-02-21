@@ -57,6 +57,7 @@ const Contact = () => {
                   <div className="contact_form-div">
                         <label htmlFor="" className="contact_form-tag">Nome</label>
                         <input 
+                        required
                         type="text"
                         name='name' 
                         className='contact_form-input' 
@@ -66,6 +67,7 @@ const Contact = () => {
                     <div className="contact_form-div">
                         <label htmlFor="" className="contact_form-tag">Email</label>
                         <input 
+                        required
                         type="email"
                         name='email' 
                         className='contact_form-input' 
@@ -75,6 +77,7 @@ const Contact = () => {
                     <div className="contact_form-div contact_form-area">
                         <label htmlFor="" className="contact_form-tag">Mensagem</label>
                         <textarea 
+                        required
                         name="message" cols="30" rows="10"
                         className="contact_form-input" placeholder="Escreva sua mensagem"
                             
