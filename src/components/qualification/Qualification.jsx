@@ -45,22 +45,29 @@ const Qualification = () => {
 
                     {/* STUDY */}
                 <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
-                    <div className="qualification_data">
+
+                <div className="qualification_data">
+                    
                         <div>
-                            <h3 className="qualification_title">Engenharia de Software</h3>
-                            <span className="qualification_subtitle">Uninter - Institute</span>
+                            <h3 className="qualification_title">Análise e Desenvolvimento de Sistemas</h3>
+                            <span className="qualification_subtitle">Unisinos - Institute</span>
                             <div className="qualification_calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023 - Present
+                                2024 - Present
                             </div>
                         </div>
+                        
+                        
 
                         <div>
                             <span className="qualification_rounder"></span>
                             <span className="qualification_line"></span>
                         </div>
+                        
+                        
                     </div>
 
+                    
                     <div className="qualification_data">
                         <div></div>
                         <div>
@@ -68,6 +75,18 @@ const Qualification = () => {
                             <span className="qualification_line"></span>
                         </div>
                         
+                        <div>
+                            <h3 className="qualification_title">Engenharia de Software</h3>
+                            <span className="qualification_subtitle">Uninter - Institute</span>
+                            <div className="qualification_calender">
+                                <i className="uil uil-calendar-alt"></i>
+                                2023 - 2º Semestre
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="qualification_data">
+                       
                         <div>
                             <h3 className="qualification_title">Web Development</h3>
                             <span className="qualification_subtitle">Rockseat - Institute</span>
@@ -76,9 +95,20 @@ const Qualification = () => {
                                 2022 - 2023
                             </div>
                         </div>
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
+                        
                     </div>
+                    
 
                     <div className="qualification_data">
+                        <div></div>
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
+                        </div>
                         <div>
                             <h3 className="qualification_title">Ensino Médio</h3>
                             <span className="qualification_subtitle">Cecília Meireles - Institute</span>
@@ -87,19 +117,14 @@ const Qualification = () => {
                                 2019 - 2022
                             </div>
                         </div>
+                        
 
-                        <div>
-                            <span className="qualification_rounder"></span>
-                            <span className="qualification_line"></span>
-                        </div>
+                       
                     </div>
 
                     <div className="qualification_data">
-                        <div></div>
-                        <div>
-                            <span className="qualification_rounder"></span>
-                            <span className="qualification_line"></span>
-                        </div>
+                        
+                      
                         
                         <div>
                             <h3 className="qualification_title">Ensino Fundamental</h3>
@@ -108,6 +133,11 @@ const Qualification = () => {
                                 <i className="uil uil-calendar-alt"></i>
                                 2010 - 2019
                             </div>
+                        </div>
+
+                        <div>
+                            <span className="qualification_rounder"></span>
+                            <span className="qualification_line"></span>
                         </div>
                     </div>
                 </div>
