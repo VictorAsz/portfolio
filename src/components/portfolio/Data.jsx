@@ -50,7 +50,7 @@ export const projectsData = [
     {
       id: 6,
       image: Instagram,
-      title: "Instagram Clone(in progress...)",
+      title: "Instagram Clone",
       category: "Backend",
       demo: null,
       githublink: "https://github.com/VictorAsz/Instagram-clone",
