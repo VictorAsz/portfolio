@@ -16,7 +16,7 @@ const About = () => {
                 <Info/>
                 <p className='about_description'>
                 
-                Estudante de engenharia de software e desenvolvedor web com especialização em Vue.js e Laravel. Habilidoso na criação de soluções inovadoras e eficientes. Comprometido com a aprendizagem contínua e mantendo-se atualizado nas últimas práticas em desenvolvimento de software.
+                Estudante e desenvolvedor web com especialização em Vue.js e Laravel. Habilidoso na criação de soluções inovadoras e eficientes. Comprometido com a aprendizagem contínua e mantendo-se atualizado nas últimas práticas em desenvolvimento de software.
 </p>
 
                 <a download="" href={CV} className="button button--flex">Baixar CV
