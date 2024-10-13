@@ -16,7 +16,7 @@ const About = () => {
                 <Info/>
                 <p className='about_description'>
                 
-                Estudante e desenvolvedor web com especialização em Vue.js e Laravel. Habilidoso na criação de soluções inovadoras e eficientes. Comprometido com a aprendizagem contínua e mantendo-se atualizado nas últimas práticas em desenvolvimento de software.
+                Sou um desenvolver full stack, atualmente estou trabalhando principalmente usando as tecnologias Angular e C#, mas tenho a capacidade de me adaptar a tecnologia necessária. Gosto de desenvolver interfaces e soluções administrativas que facilitam o trabalho.
 </p>
 
                 <a download="" href={CV} className="button button--flex">Baixar CV

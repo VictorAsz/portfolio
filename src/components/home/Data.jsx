@@ -58,15 +58,15 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home_subtitle">
-            Desenvolvedor Web
+            Desenvolvedor <br/> Full Stack
         </h3>
         <p className="home_description">
-          Eu sou um desenvolvedor web, com interesse em design. Eu gosto de combinar minhas habilidades para criar experiências agradáveis, sempre buscando oportunidades para expandir meu conhecimento.
+          Eu sou um desenvolvedor web full stack e estudante de ADS com bastante interesse na área de design. Sempre estou programando algo e buscando me aprimorar
         
         </p>
 
         <a href="#contact" className="button button--flex">
-            Fale comigo! 
+            Fale comigo
 
             <i class="uil uil-arrow-right message_icon"></i>
            
