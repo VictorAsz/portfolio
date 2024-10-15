@@ -1,0 +1,14 @@
+.popup {
+    position: fixed; /* Fixo em relação à janela do navegador */
+    top: 20px; /* Distância do topo da tela */
+    left: 50%; /* 50% da largura da tela */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    background-color: #72be75; /* Verde */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Transição suave */
+    opacity: 1; /* Opacidade inicial */
+    z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}

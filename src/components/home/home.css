@@ -23,11 +23,19 @@
 .home_social-icon{
     font-size: 1.5rem;
     color: var(--title-color);
+    background-color: hsla(208, 100%, 97%, 0);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    
 }
+
 
 .home_social-icon:hover {
     color: var(--title-color-dark);
+    color: #6f43ba;
+    transform: scale(1.10); /* Aumenta o tamanho do card em 5% */
+ 
 }
+
 
 .home_title {
     font-size: var(--big-font-size);

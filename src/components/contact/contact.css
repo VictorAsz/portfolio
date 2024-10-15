@@ -24,6 +24,12 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.contact_card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card em 5% */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao passar o mouse */
 }
 
 .contact_card-icon{
@@ -155,4 +161,6 @@
   
   
   }
+  
+
   
