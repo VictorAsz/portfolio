@@ -19,7 +19,8 @@ const About = () => {
                 Sou um desenvolver full stack, atualmente estou trabalhando principalmente usando as tecnologias Angular e C#, mas tenho a capacidade de me adaptar a tecnologia necessária. Gosto de desenvolver interfaces e soluções administrativas que facilitam o trabalho.
 </p>
 
-                <a download="" href={CV} className="button button--flex">Baixar CV
+//href={CV} 
+                <a download="" href="" className="button button--flex">Baixar CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
