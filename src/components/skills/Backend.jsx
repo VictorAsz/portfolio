@@ -20,7 +20,7 @@ const Backend = () => {
             <div className="skills_data">
                 <i class="bx bx-badge-check"></i>
             <div>
-                <h3 className='skills_name'>ASP.NET</h3>
+                <h3 className='skills_name'>SQL</h3>
                 {/* <span className='skills_level'>Basic</span> */}
             </div>
             </div>
@@ -28,7 +28,7 @@ const Backend = () => {
             <div className="skills_data">
                 <i class="bx bx-badge-check"></i>
             <div>
-                <h3 className='skills_name'>PHP</h3>
+                <h3 className='skills_name'>Linux</h3>
                 {/* <span className='skills_level'>Basic</span> */}
             </div>
             </div>
@@ -40,7 +40,7 @@ const Backend = () => {
             <div className="skills_data">
                 <i class="bx bx-badge-check"></i>
             <div>
-                <h3 className='skills_name'>SQL</h3>
+                <h3 className='skills_name'>.NET</h3>
                 {/* <span className='skills_level'>Basic</span> */}
             </div>
             </div>
@@ -48,14 +48,14 @@ const Backend = () => {
             <div className="skills_data">
                 <i class="bx bx-badge-check"></i>
             <div>
-                <h3 className='skills_name'>MySQL</h3>
+                <h3 className='skills_name'>Oracle</h3>
                 {/* <span className='skills_level'>Basic</span> */}
             </div>
             </div>
             <div className="skills_data">
                 <i class="bx bx-badge-check"></i>
             <div>
-                <h3 className='skills_name'>Laravel</h3>
+                <h3 className='skills_name'>Node.js</h3>
                 {/* <span className='skills_level'>Intermediate</span> */}
             </div>
             </div>

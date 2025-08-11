@@ -61,7 +61,9 @@ const Data = () => {
             Desenvolvedor <br/> Full Stack
         </h3>
         <p className="home_description">
-          Eu sou um desenvolvedor web full stack e estudante de ADS com bastante interesse na área do desenvolvimento Web. Sempre estou programando algo e buscando me aprimorar, sempre aprendendo com os mais experientes.
+
+
+          Desenvolvedor Full Stack com experiência em .NET e Angular, apaixonado por criar interfaces intuitivas e soluções escaláveis que otimizam processos e modernizam sistemas.
         
         </p>
 
