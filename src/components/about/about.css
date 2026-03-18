@@ -1,92 +1,82 @@
-.about_container{
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 4rem;
+.about_container {
+    max-width: 768px;
+    margin: 0 auto;
 }
 
-.about_img{
-    width: 400px;
-    border-radius: 1.5rem;
-    justify-self: center;
-}
-
-.about_info{
-    grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
-    margin-bottom: var(--mb-2);
-}
-
-.about_box{
-    background-color:  var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.75rem;
+.about_data {
     text-align: center;
-    padding: 1rem 1.25rem;
-    margin: 0;
 }
 
-.about_icon{
-    font-size: 1.5rem;
+/* INFO NO TOPO */
+.about_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* CARDS MAIS BONITOS */
+.about_box {
+    background: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+    padding: 1.2rem 1rem;
+    transition: 0.3s;
+    cursor: default;
+}
+
+/* EFEITINHO HOVER 😏 */
+.about_box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about_icon {
+    font-size: 1.6rem;
     color: var(--title-color);
-    margin-bottom: var(--mb-0-5);
+    margin-bottom: 0.5rem;
 }
 
-.about_title{
+.about_title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
 
-.about_subtitle{
+.about_subtitle {
     font-size: var(--smaller-font-size);
 }
 
-.about_description{
-    padding: 0 1rem 0 0;
-    margin-bottom: var(--mb-2-5);
-    
+/* TEXTO MAIS LEGÍVEL */
+.about_description {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
 }
 
-.button__icon{
-    margin-left: 0.3rem;
+/* BOTÃO CENTRALIZADO */
+.about_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
 }
 
-
-/* BREAKPOINTS  */
-@media screen and (max-width: 992px){
-    .about_container{
+/* RESPONSIVO */
+@media screen and (max-width: 576px) {
+    .about_info {
         grid-template-columns: 1fr;
-        row-gap: 2.5rem;
-    }
-    .about_img{
-        width: 300px;
-    }
-    .about_box{
-        padding: 0.75rem 0.5rem;
-    }
-    .about_data{
-        text-align: center;
-    }
-    .about_info{
-        justify-content: center;
     }
 
-    .about_description{
-        padding: 0 5rem;
-        margin-bottom: 2rem;
+    .about_container {
+        padding: 0 1.5rem;
     }
-  }
 
-  @media screen and (max-width: 576px){
-    .about_info{
-        grid-template-columns: repeat(3, 1fr);
+    .about_description {
+        padding: 0 0.5rem;
     }
-    .about_description{
-        padding: 0;
+
+    .about_info {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
     }
-  }
-  @media screen and (max-width: 350px){
-    .about_info{
-        grid-template-columns: repeat(2, 1);
-    }
-  }
-  
+
+}

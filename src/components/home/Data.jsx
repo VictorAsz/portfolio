@@ -63,7 +63,7 @@ const Data = () => {
         <p className="home_description">
 
 
-          Desenvolvedor Full Stack com experiência em .NET e Angular, apaixonado por criar interfaces intuitivas e soluções escaláveis que otimizam processos e modernizam sistemas.
+          Desenvolvedor Full Stack com experiência em .NET e Angular, focado na criação de soluções escaláveis e interfaces eficientes que otimizam processos e modernizam sistemas.
         
         </p>
 
