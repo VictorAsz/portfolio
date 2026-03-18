@@ -1,72 +1,20 @@
 import React from 'react'
 
 const Frontend = () => {
-  return (
-    <div className="skills_content">
+    return (
+        <div className="skills_content">
+            <h3 className="skills_title">Frontend</h3>
 
-        <h3 className="skills_title">Frontend Skills</h3>
-
-         <div className='skills_box'>
-            <div className="skills_group">
-
-                <div className="skills_data">
-                    <i class="bx bx-badge-check"></i>
-                <div>
-                    <h3 className='skills_name'>JavaScript</h3>
-                    {/* <span className='skills_level'>Intermediate</span> */}
-                </div>
-                </div>
-
-                <div className="skills_data">
-                    <i class="bx bx-badge-check"></i>
-                <div>
-                    <h3 className='skills_name'>Angular</h3>
-                     {/* <span className='skills_level'>Intermediate</span> */}
-                 
-                </div>
-                </div>
-
-                <div className="skills_data">
-                    <i class="bx bx-badge-check"></i>
-                <div>
-                    <h3 className='skills_name'>SCSS</h3>
-                    {/* <span className='skills_level'>Intermediate</span> */}
-                </div>
-                </div>
-
+            <div className="skills_list">
+                <div className="skills_item"><i class='bx bx-layout'></i> JavaScript</div>
+                <div className="skills_item"><i class='bx bx-layout'></i> TypeScript</div>
+                <div className="skills_item"><i class='bx bx-layout'></i> Angular</div>
+                <div className="skills_item"><i class='bx bx-layout'></i> RxJS</div>
+                <div className="skills_item"><i class='bx bx-layout'></i> SCSS</div>
+                <div className="skills_item"><i class='bx bx-layout'></i> Bootstrap</div>
             </div>
-            
-             <div className="skills_group">
-
-                <div className="skills_data">
-                    <i class="bx bx-badge-check"></i>
-                <div>
-                    <h3 className='skills_name'>TypeScript</h3>
-                    {/* <span className='skills_level'>Basic</span> */}
-                </div>
-                </div>
-
-                <div className="skills_data">
-                    <i class="bx bx-badge-check"></i>
-                <div>
-                    <h3 className='skills_name'>Ionic</h3>
-                    {/* <span className='skills_level'>Intermediate</span> */}
-                </div>
-                </div>
-
-                <div className="skills_data">
-                    <i class="bx bx-badge-check"></i>
-                <div>
-                    <h3 className='skills_name'>Bootstrap</h3>
-                    {/* <span className='skills_level'>Intermediate</span> */}
-                </div>
-                </div>
-
-            </div>
-            
         </div>
-    </div>
-  )
+    )
 }
 
 export default Frontend
